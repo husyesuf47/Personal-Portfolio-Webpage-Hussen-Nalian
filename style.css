@@ -6,21 +6,143 @@ padding: 20px;
     list-style-type: none;
     display: inline;
     color: white;
+    font-size: x-large;
+    font: 900;
+    
     
 }
 #nav ul a{
     color: white;
     text-decoration: none;
-    text-align: start;
+    text-align: center;
+    padding: 20px;
+    float: right;
 }
+
+#welcome-section{
+    background-color: rgb(37, 36, 36);
+    max-width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    margin-bottom: 0;
+}
+#welcome-section h1{
+    color:white;
+    font-size: larger;
+    font: bolder;
+    margin-top: 200px;
+}
+#welcome-section p{
+    color: red;
+    font-size: larger;
+    font: bolder;
+    
+}
+
+.project-tile{
+    width: 100%;
+    height: 1050px;
+    background-color: rgb(45, 45, 102);
+    margin-top: 0;
+    padding: 20px;
+}   
+.project-tile h1{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    padding: 20px;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
 
 .images{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
 }
 .imgdiv img{
     width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin-left: 35px;
+}
+.project-tile p{
+    align-content: center;
+    color: white;
+    margin-left: 500px;
+}
+#profile-link{
+    color: white;
+    font-size: xx-large;
+    background-color: rgb(48, 45, 45);
+    box-shadow: 5px;
+    border-radius: 1px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;   
+}
+#profile-link:hover{
+    background-color: red;
+}
+
+footer{
+    width: 100%;
     height: 300px;
+    background-color: rgb(43, 40, 40);
+    margin: 0;
+    padding: 20px;
+}
+.div1 h1{
+    text-align: center;
+    color: white;
+    margin-left: 80px;
+    font-size:xx-large;
+   
+}
+.div1 p{
+    text-align: center;
+    color: white;
+    margin-left: 80px;
+}
+
+.div2 ul{
+    display: inline;
+    margin-left: 400px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+
+}
+.div2 ul a{
+    text-decoration: none;
+    margin-left: 8000px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-size:x-large;
+    font: 500;
+    text-align: center;
+    justify-content: center;
+}
+hr{
+    color: red;
+}
+.div3{
+    margin: 30px;
+}
+.div3 p{
+    text-align: center;
+    color: white;
+    
+}
+#p1{
+    
+    float: left;
+}
+#p2{
+    float: right;
 }
