@@ -1,0 +1,26 @@
+#nav{
+background-color: rgb(165, 65, 65);
+padding: 20px;
+}
+#nav ul{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    
+}
+#nav ul a{
+    color: white;
+    text-decoration: none;
+    text-align: start;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.imgdiv img{
+    width: 350px;
+    height: 300px;
+}
